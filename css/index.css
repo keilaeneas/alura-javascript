@@ -133,10 +133,15 @@ button[disabled=disabled], button:disabled {
 	border: 1px solid red;
 }
 
-#mensagem-erro{
+#mensagens-erro{
 	color: red;
 }
 
 .paciente-invalido{
 	background-color: lightcoral;
+}
+
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
 }
